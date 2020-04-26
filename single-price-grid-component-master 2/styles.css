@@ -1,0 +1,102 @@
+html {
+    background-color: hsl(204, 43%, 93%);
+}
+.MainBox {
+    width: 720px;
+    height: 440px;
+    box-shadow: 0px 0px 39px 0px hsl(201, 13%, 78%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-family: 'Karla', sans-serif;
+}
+
+.TopBox {
+    width: 660px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.LeftBox {
+    width: 320px;
+    height: 240px;
+    background-color: hsl(179, 62%, 39%);
+    margin: 0 0 0 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-bottom-left-radius: 8px;
+}
+
+.RightBox {
+    width: 320px;
+    height: 240px;
+    background-color: hsl(179, 62%, 43%);
+    margin: 0 0 0 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    position: relative;
+    left: 360px;
+    bottom: 270px;
+    border-bottom-right-radius: 8px;
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(179, 62%, 39%)
+}
+
+h2 {
+    font-weight: 400;
+    color: white;
+}
+
+h3 {
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+}
+
+p {
+    font-weight: 400;
+    color: hsla(179, 86%, 78%, 0.938)
+}
+
+span.green {
+    color: hsl(71, 73%, 54%);
+}
+
+span.smallparagraph {
+    font-weight: 200;
+    color: white;
+}
+
+span.boldnumber {
+    font-size: 200%;
+    color: white;
+}
+
+.myButton {
+	box-shadow: 0px 1px 11px 3px #209290;
+	background-color:#c0df34;
+	border-radius:4px;
+	border:1px solid #a8c71f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 92px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #26a19f;
+}
+.myButton:hover {
+	background-color:#26a19f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
